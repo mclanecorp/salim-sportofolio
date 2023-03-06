@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=PT+Mono&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  color: #000000;
+  width: 100%;
+  background-color: #f0f0f0;
+
+  display: grid;
+  place-content: center;
+}
+main {
+  width: 1440px;
+  background-color: #ffff;
+}
+
+/*-------------------------------nav et header------------------------*/
+header {
+  background: rgb(152, 151, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(152, 151, 151, 1) 0%,
+    rgba(196, 196, 196, 1) 24%,
+    rgba(250, 246, 246, 1) 64%
+  );
+  width: 1440px;
+}
+nav {
+}
+.link_nav_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 54px;
+  margin-bottom: 84px;
+}
+.link_nav a {
+  margin-right: 57px;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #000000;
+  text-align: center;
+}
+.logo_nav img {
+  margin-right: 26px;
+  cursor: pointer;
+}
+.box_header {
+  display: flex;
+}
+.box_title_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -122px;
+  margin-top: -110px;
+}
+.title_header {
+  font-family: PT Mono;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  text-align: left;
+}
+.second_title_header {
+  font-family: PT Mono;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.btn_header {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 76px;
+  background-color: #353434;
+  width: 210px;
+  border-radius: 8px;
+  margin-left: 420px;
+  padding: 16px 13px;
+}
+.btn_header a {
+  color: #ffff;
+}
+/*-------------------------------About------------------------*/
+.box_about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 54px;
+  margin-bottom: 48px;
+}
+.about_title {
+  font-family: PT Mono;
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 84px;
+  text-align: center;
+}
+.content_about {
+  font-family: PT Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+  margin-bottom: 62px;
+  margin-top: 42px;
+  width: 812px;
+  text-align: center;
+}
+.logo_btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.btn_about {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  background-color: #353434;
+  width: 210px;
+  height: 47px;
+  border-radius: 8px;
+  margin-bottom: 77px;
+  margin-left: 570px;
+  padding: 13px 44px;
+  cursor: pointer;
+}
+.btn_about a {
+  color: #ffff;
+}
+.img_up img {
+  /*position: absolute;
+  top: 1637px;
+  left: 1439px;*/
+  margin-left: 439px;
+  margin-top: -40px;
+}
+/*-------------------------------Project------------------------*/
+.title_project {
+  font-family: PT Mono;
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 84px;
+  text-align: center;
+  margin-bottom: 140px;
+}
+.box_youtube_clone {
+  display: flex;
+  align-items: center;
+  margin-right: 131px;
+}
+.box_youtube_clone_two {
+  display: flex;
+  align-items: center;
+  margin-left: 87px;
+  margin-top: 131px;
+  margin-right: 105px;
+  margin-bottom: 146px;
+}
+.img_youtube_clone img {
+  width: 615px;
+  height: 329px;
+  margin-left: 128px;
+}
+.content_youtube_clone {
+  margin-left: 42px;
+}
+.title_content {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  margin-bottom: 25px;
+}
+.content_youtube {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 22px;
+  text-align: left;
+}
+.linkyoutube_clone {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #000000;
+  text-decoration: underline;
+}
+.box_view_all_up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view_all_text {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  text-decoration: underline;
+  color: #000000;
+  text-align: left;
+  margin-left: 511px;
+}
+.view_all_up {
+  margin-left: 402px;
+}
+/*-------------------------------Contact------------------------*/
+.box_contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 165px;
+}
+.container_contact {
+  width: 668px;
+}
+.title_contact {
+  font-family: PT Mono;
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 84px;
+  text-align: center;
+}
+.content_contact {
+  font-family: PT Mono;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 39px;
+}
+.form_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_contact input {
+  width: 100%;
+  margin-top: 30px;
+  border: 1px solid #000000;
+  border-radius: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 44px;
+  color: #0000004a;
+}
+.form_contact textarea {
+  width: 100%;
+  height: 414px;
+  margin-top: 39px;
+  border-radius: 18px;
+}
+.btn_contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 82px;
+  background-color: #353434;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn_contact a {
+  color: #ffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 13px 0;
+  text-align: center;
+}
+.box_up_contact {
+  position: relative;
+  left: 270px;
+  bottom: -730px;
+}
